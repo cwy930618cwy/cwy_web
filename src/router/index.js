@@ -11,6 +11,10 @@ Vue.use(Router)
 const router = new Router({
     routes: [
         {
+            path: '/',
+            redirect: 'main'
+        },
+        {
             path: '/main',
             name: 'main',
             component: Main,

@@ -1,6 +1,6 @@
 var path = require('path');
 module.exports = {
-  outputDir:'vuecli3',
+  outputDir:'dist',
   publicPath: './',
   devServer: {
     // 设置主机地址
